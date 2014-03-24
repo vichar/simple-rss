@@ -34,7 +34,7 @@ class SimpleRSS
 		:'media:content#url', :'media:content#type', :'media:content#height', :'media:content#width',
 		:'media:title', :'media:thumbnail#url', :'media:thumbnail#height', :'media:thumbnail#width',
 		:'media:credit', :'media:credit#role',
-		:'media:category', :'media:category#scheme',:'starttime',:'endtime'
+		:'media:category', :'media:category#scheme',:'starttime',:'endtime',:'image'
 	]
 
 	def initialize(source, options={})
